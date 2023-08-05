@@ -152,14 +152,14 @@ a:hover { color: #FF0; }
 
 .baner-content h1 {
   margin-top: 0px;
-  font-size: 12px;
-  color: 	orange;
+  font-size: 120px;
+  color: 	lavender;
   font-weight: 00;
   margin-bottom: 0px;
 }
 
 .baner-content em {
-  color: #ff7d27;
+  color: lightskyblue;
   font-weight: 600;
   font-style: normal;
 }
