@@ -146,15 +146,15 @@ a:hover { color: #FF0; }
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../img/1st-section.jfif);
+  background-image: url(../img/1st-section.webp);
   min-height: 150vh;
 }
 
 .baner-content h1 {
   margin-top: 0px;
-  font-size: 128px;
-  color: 	#fff;
-  font-weight: 900;
+  font-size: 12px;
+  color: 	orange;
+  font-weight: 00;
   margin-bottom: 0px;
 }
 
@@ -755,3 +755,76 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+/* Global Styles */
+body {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  .baner-content h1 {
+    font-size: 36px;
+  }
+
+  .baner-content span {
+    font-size: 24px;
+  }
+
+  .service-content {
+    padding-top: 5vh;
+    text-align: center;
+  }
+
+  .service-content .left-text .line-dec {
+    width: 35px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  .baner-content h1 {
+    font-size: 42px;
+  }
+
+  .baner-content span {
+    font-size: 20px;
+  }
+
+  .service-content .left-text .line-dec {
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .baner-content h1 {
+    font-size: 48px;
+  }
+
+  .baner-content span {
+    font-size: 22px;
+  }
+
+  .service-content .left-text .line-dec {
+    width: 45px;
+  }
+}
+
+/* Add more media queries as needed for larger screens */
+
+/* Other CSS Styles (unchanged) */
+/* ... (the rest of your CSS code) ... */
