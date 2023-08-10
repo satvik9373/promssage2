@@ -6,7 +6,7 @@
  */
 
 :root {
-    --blue: #007bff;
+    --blue: 	#B0BF1A;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
@@ -19,7 +19,7 @@
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --primary: #007bff;
+    --primary: 	#B0BF1A;
     --secondary: #6c757d;
     --success: #28a745;
     --info: #17a2b8;
@@ -2464,14 +2464,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff
+    background-color: 	#B0BF1A;
+    border-color: 	#B0BF1A;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc
+    background-color: 	#B0BF1A;
+    border-color: 	#B0BF1A
 }
 
 .btn-primary.focus,
@@ -2767,7 +2767,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-    color: #007bff;
+    color: 	#B0BF1A;
     background-color: transparent;
     background-image: none;
     border-color: #007bff
